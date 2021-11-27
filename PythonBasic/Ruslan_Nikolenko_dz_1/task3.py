@@ -1,4 +1,3 @@
-name_str = "процент"
 count = 0
 while True:
     if count < 100:
