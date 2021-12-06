@@ -14,4 +14,3 @@ def get_jokes(count):
         else:
             break
 get_jokes(int(input("Введите кол-во шуток: ")))
-# count_jokes = int(input("Введите кол-во шуток: "))
