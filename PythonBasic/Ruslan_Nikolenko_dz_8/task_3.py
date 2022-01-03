@@ -1,13 +1,10 @@
 def type_logger(func):
-    def txt(*a):
-        check = a
-        for item in check:
-            print(f'{item}: {type(item)}', end=',')
-        return a
+    def txt(num):
+        res = func(num)
+        print(f'{func.__name__} ({num}: {type(num)})')
     return txt
 
 @type_logger
-def calc_cube(*args):
-    return args
-
-print(calc_cube(5, 6))
+def calc_cube(x):
+    return x ** 3
+calc_cube(5)
