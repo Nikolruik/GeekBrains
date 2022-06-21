@@ -1,0 +1,96 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header .items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.default_txt {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.about-card {
+    width: 359px;
+}
+
+.about-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_title {
+    font-size: 64px;
+    color: #1F3F68;
+    width: 510px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.mini_title {
+    font-size: 36px;
+    text-align: center;
+}
+
+.last_title {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.inp {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.inp_submit {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.footer .mini_title {
+    width: 140px;
+    margin: 0 auto;
+}
+
+.footer .default_txt {
+    width: 495px;
+}
+
+.footer-items ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pre-footer {
+    max-width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contacts-feedback .container {
+    display: flex;
+}
